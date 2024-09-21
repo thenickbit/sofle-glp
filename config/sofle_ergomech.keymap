@@ -36,8 +36,8 @@
             #binding-cells = <2>;
             hold-trigger-key-positions = <28 27 26 25>;
             flavor = "balanced";
-            tapping-term-ms = <150>;
-            quick-tap-ms = <120>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
         };
     };
 
