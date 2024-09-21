@@ -22,8 +22,8 @@
         compatible = "zmk,conditional-layers";
 
         adjust_layer {
-            if-layers = <2 3>;
-            then-layer = <4>;
+            if-layers = <3 4>;
+            then-layer = <5>;
         };
     };
 
@@ -44,7 +44,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base {
             label = "default";
 
             // ------------------------------------------------------------------------------------------------------------
@@ -57,15 +57,26 @@
             bindings = <
 &kp ESC         &kp N1    &kp N2    &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8        &kp N9    &kp N0    &none
 &kp TAB         &kp Q     &kp W     &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I         &kp O     &kp P     &kp BSPC
-&kp LEFT_SHIFT  &kp A     &hrm 3 S  &hrm 2 D  &hrm 1 F   &kp G          &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
-&kp RCTRL       &kp Z     &kp X     &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&kp C_MUTE      &kp LGUI  &kp LALT  &mo 2     &kp SPACE  &kp BACKSPACE  &kp RMETA  &kp ENTER  &mo 3         &kp RALT  &kp RGUI
+&kp LEFT_SHIFT  &kp A     &hrm 4 S  &hrm 3 D  &hrm 2 F   &kp G          &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
+&kp RCTRL       &kp Z     &kp X     &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &tog 1
+&kp C_MUTE      &kp LGUI  &kp LALT  &mo 3     &kp SPACE  &kp BACKSPACE  &kp RMETA  &kp ENTER  &mo 4         &kp RALT  &kp RGUI
                                                                         &kp ENTER  &kp RIGHT  &kp UP_ARROW  &kp LEFT  &kp DOWN
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>,
                 <&inc_dec_kp PG_UP PG_UP>;
+        };
+
+        game {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp Q   &kp W   &kp E   &kp R   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp A   &kp S   &kp D   &kp F   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp Z   &kp X   &kp C   &kp V   &trans  &trans  &trans  &trans  &trans  &trans  &tog 0
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans  &trans  &trans  &trans  &trans
+            >;
         };
 
         code {
