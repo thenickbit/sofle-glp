@@ -27,7 +27,7 @@ layers:
   - LEFT SHIFT
   - A
   - S
-  - D
+  - {t: D, h: lower}
   - {t: F, h: code}
   - G
   - H
@@ -157,13 +157,13 @@ layers:
   - {t: ▽, type: trans}
   - '!'
   - '@'
-  - '#'
+  - {t: '#', type: held}
   - $
   - '%'
   - ^
-  - '&'
-  - '*'
-  - (
+  - '4'
+  - '5'
+  - '6'
   - )
   - '|'
   - {t: ▽, type: trans}
@@ -172,16 +172,16 @@ layers:
   - +
   - '{'
   - '}'
-  - '['
-  - ']'
-  - ;
-  - ':'
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -287,7 +287,7 @@ layers:
   - ''
   - RGB BRD
   - RGB BRI
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -311,7 +311,7 @@ layers:
   - RGB TOG
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
