@@ -26,7 +26,7 @@ layers:
   - BSPC
   - LEFT SHIFT
   - A
-  - S
+  - {t: S, h: raise}
   - {t: D, h: lower}
   - {t: F, h: code}
   - G
@@ -100,7 +100,7 @@ layers:
   - )
   - '='
   - '>'
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,7 +221,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
-  - LCTRL
+  - {t: LCTRL, type: held}
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
@@ -251,7 +251,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
@@ -286,7 +286,7 @@ layers:
   - ''
   - ''
   - RGB BRD
-  - RGB BRI
+  - {t: RGB BRI, type: held}
   - {type: held}
   - ''
   - ''
@@ -316,7 +316,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - A
