@@ -73,7 +73,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp Q   &kp W   &kp E   &kp R   &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp A   &kp S   &kp D   &kp F   &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Z   &kp X   &kp C   &kp V   &trans  &trans  &trans  &trans  &trans  &trans  &tog 0
+&trans  &kp Z   &kp X   &kp C   &kp V   &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                 &trans  &trans  &trans  &trans  &trans
             >;
