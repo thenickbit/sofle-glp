@@ -57,7 +57,7 @@
             bindings = <
 &kp ESC         &kp N1    &kp N2    &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8        &kp N9    &kp N0    &none
 &kp TAB         &kp Q     &kp W     &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I         &kp O     &kp P     &kp BSPC
-&kp LEFT_SHIFT  &kp A     &kp S     &hrm 2 D  &hrm 1 F   &kp G          &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp A     &hrm 3 S  &hrm 2 D  &hrm 1 F   &kp G          &kp H      &kp J      &kp K         &kp L     &kp SEMI  &kp SQT
 &kp RCTRL       &kp Z     &kp X     &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
 &kp C_MUTE      &kp LGUI  &kp LALT  &mo 2     &kp SPACE  &kp BACKSPACE  &kp RMETA  &kp ENTER  &mo 3         &kp RALT  &kp RGUI
                                                                         &kp ENTER  &kp RIGHT  &kp UP_ARROW  &kp LEFT  &kp DOWN
@@ -72,7 +72,7 @@
             bindings = <
 &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7                &kp F8                 &kp F9     &kp F10           &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans  &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans            &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp GREATER_THAN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp GREATER_THAN  &kp PRINTSCREEN
 &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp LBKT              &kp RBKT               &trans     &trans            &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans                 &trans     &trans
                                                 &trans          &trans                &trans                 &trans     &trans
