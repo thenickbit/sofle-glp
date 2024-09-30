@@ -36,7 +36,7 @@ layers:
   - L
   - ;
   - ''''
-  - RCTRL
+  - LCTRL
   - Z
   - X
   - C
@@ -49,16 +49,16 @@ layers:
   - /
   - {t: game, h: toggle}
   - MUTE
-  - LGUI
-  - LALT
   - lower
-  - SPACE
+  - LEFT ALT
   - BACKSPACE
-  - RMETA
+  - SPACE
+  - LEFT GUI
+  - RIGHT SHIFT
   - ENTER
   - raise
   - RALT
-  - RGUI
+  - raise
   - ENTER
   - RIGHT
   - UP ARROW
