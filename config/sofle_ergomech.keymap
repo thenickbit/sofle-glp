@@ -68,7 +68,7 @@
                 <&inc_dec_kp PG_UP PG_UP>;
         };
 
-        game {
+        Game {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp Q   &kp W   &kp E   &kp R   &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -77,17 +77,21 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                 &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "game";
         };
 
-        code {
+        Code {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7                &kp F8                 &kp F9     &kp F10           &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans  &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans            &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp GREATER_THAN  &kp PRINTSCREEN
-&trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp LBKT              &kp RBKT               &trans     &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans                 &trans     &trans
-                                                &trans          &trans                &trans                 &trans     &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7                &kp F8                 &kp F9         &kp F10           &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans  &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &trans            &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL      &kp GREATER_THAN  &kp PRINTSCREEN
+&trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp LBKT              &kp RBKT               &kp PIPE       &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans                 &trans         &trans
+                                                &trans          &trans                &trans                 &trans         &trans
             >;
+
+            label = "code";
         };
 
         lower_layer {
