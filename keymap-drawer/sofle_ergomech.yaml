@@ -11,7 +11,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
+  - BACKSPACE
   - TAB
   - Q
   - W
@@ -23,7 +23,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - DELETE
   - LEFT SHIFT
   - A
   - {t: S, h: raise}
@@ -56,7 +56,7 @@ layers:
   - BACKSPACE
   - RIGHT SHIFT
   - ENTER
-  - raise
+  - RIGHT GUI
   - RALT
   - raise
   - ENTER
