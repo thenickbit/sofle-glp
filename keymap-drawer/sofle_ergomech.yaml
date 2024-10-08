@@ -51,9 +51,9 @@ layers:
   - MUTE
   - lower
   - LEFT ALT
-  - LEFT GUI
-  - SPACE
   - BACKSPACE
+  - SPACE
+  - LEFT GUI
   - RIGHT SHIFT
   - ENTER
   - RIGHT GUI
