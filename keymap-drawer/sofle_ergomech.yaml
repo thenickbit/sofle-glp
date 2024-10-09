@@ -324,3 +324,6 @@ layers:
   - C
   - D
   - E
+combos:
+- p: [31, 32, 33]
+  k: ENTER
