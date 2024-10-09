@@ -1,5 +1,5 @@
 layers:
-  base:
+  Base:
   - ESC
   - '1'
   - '2'
@@ -26,9 +26,9 @@ layers:
   - DELETE
   - LEFT SHIFT
   - A
-  - {t: S, h: raise}
-  - {t: D, h: lower}
-  - {t: F, h: Code}
+  - S
+  - D
+  - F
   - G
   - H
   - J
@@ -47,9 +47,9 @@ layers:
   - ','
   - .
   - /
-  - {t: Game, h: toggle}
+  - {t: Base, h: toggle}
   - MUTE
-  - lower
+  - Move
   - LEFT ALT
   - LEFT GUI
   - SPACE
@@ -58,77 +58,12 @@ layers:
   - ENTER
   - RIGHT GUI
   - RALT
-  - raise
+  - Code
   - ENTER
   - RIGHT
   - UP ARROW
   - LEFT
   - DOWN
-  Game:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Q
-  - W
-  - E
-  - R
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - A
-  - S
-  - D
-  - F
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Z
-  - X
-  - C
-  - V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Code:
   - {t: ▽, type: trans}
   - F1
@@ -144,9 +79,9 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - +
   - '{'
@@ -156,9 +91,9 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - '4'
+  - '5'
+  - '6'
   - {t: ▽, type: trans}
   - '-'
   - (
@@ -167,10 +102,10 @@ layers:
   - '>'
   - PRINTSCREEN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - _
   - '['
@@ -188,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -222,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - '!'
   - '@'
-  - {t: '#', type: held}
+  - '#'
   - $
   - '%'
   - ^
@@ -259,7 +194,7 @@ layers:
   - C
   - D
   - E
-  raise:
+  Move:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -286,7 +221,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
-  - {t: LCTRL, type: held}
+  - LCTRL
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
@@ -309,7 +244,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,8 +286,8 @@ layers:
   - ''
   - ''
   - RGB BRD
-  - {t: RGB BRI, type: held}
-  - {type: held}
+  - RGB BRI
+  - ''
   - ''
   - ''
   - ''
@@ -374,7 +309,7 @@ layers:
   - ''
   - ''
   - RGB TOG
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
