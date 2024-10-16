@@ -49,16 +49,16 @@ layers:
   - /
   - {t: Base, h: toggle}
   - MUTE
-  - Move
   - LEFT ALT
   - LEFT GUI
+  - Move
   - SPACE
   - BACKSPACE
   - RIGHT SHIFT
   - ENTER
-  - RIGHT GUI
-  - RALT
   - Code
+  - RIGHT GUI
+  - RIGHT ALT
   - ENTER
   - RIGHT
   - UP ARROW
@@ -121,9 +121,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -244,9 +244,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,9 +309,9 @@ layers:
   - ''
   - ''
   - RGB TOG
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
   - ''
   - ''
   - ''
