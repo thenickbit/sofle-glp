@@ -48,6 +48,16 @@
             bindings = <&kp ENTER>;
             key-positions = <31 32 33>;
         };
+
+        code-layer {
+            bindings = <&mo 1>;
+            key-positions = <28 27>;
+        };
+
+        move-layer {
+            bindings = <&mo 2>;
+            key-positions = <27 26>;
+        };
     };
 
     keymap {
