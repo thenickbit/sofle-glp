@@ -327,3 +327,7 @@ layers:
 combos:
 - p: [31, 32, 33]
   k: ENTER
+- p: [28, 27]
+  k: Code
+- p: [27, 26]
+  k: Move

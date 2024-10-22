@@ -399,6 +399,16 @@ path.combo {
 <rect rx="6" ry="6" x="630" y="133" width="28" height="26" class="combo"/>
 <text x="644" y="146" class="combo tap">ENTER</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="131" width="28" height="26" class="combo"/>
+<a href="#Code">
+<text x="224" y="144" class="combo tap layer-activator">Code</text>
+</a></g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<a href="#Move">
+<text x="168" y="144" class="combo tap layer-activator">Move</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 521)" class="layer-Code">
@@ -665,6 +675,16 @@ path.combo {
 <rect rx="6" ry="6" x="630" y="133" width="28" height="26" class="combo"/>
 <text x="644" y="146" class="combo tap">ENTER</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="131" width="28" height="26" class="combo"/>
+<a href="#Code">
+<text x="224" y="144" class="combo tap layer-activator">Code</text>
+</a></g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<a href="#Move">
+<text x="168" y="144" class="combo tap layer-activator">Move</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1042)" class="layer-Move">
@@ -942,6 +962,16 @@ path.combo {
 <rect rx="6" ry="6" x="630" y="133" width="28" height="26" class="combo"/>
 <text x="644" y="146" class="combo tap">ENTER</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="131" width="28" height="26" class="combo"/>
+<a href="#Code">
+<text x="224" y="144" class="combo tap layer-activator">Code</text>
+</a></g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<a href="#Move">
+<text x="168" y="144" class="combo tap layer-activator">Move</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1562)" class="layer-Numpad">
@@ -1207,6 +1237,16 @@ path.combo {
 <rect rx="6" ry="6" x="630" y="133" width="28" height="26" class="combo"/>
 <text x="644" y="146" class="combo tap">ENTER</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="131" width="28" height="26" class="combo"/>
+<a href="#Code">
+<text x="224" y="144" class="combo tap layer-activator">Code</text>
+</a></g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<a href="#Move">
+<text x="168" y="144" class="combo tap layer-activator">Move</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 2083)" class="layer-adjust">
@@ -1464,6 +1504,16 @@ path.combo {
 <rect rx="6" ry="6" x="630" y="133" width="28" height="26" class="combo"/>
 <text x="644" y="146" class="combo tap">ENTER</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="131" width="28" height="26" class="combo"/>
+<a href="#Code">
+<text x="224" y="144" class="combo tap layer-activator">Code</text>
+</a></g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<a href="#Move">
+<text x="168" y="144" class="combo tap layer-activator">Move</text>
+</a></g>
 </g>
 </g>
 </svg>
