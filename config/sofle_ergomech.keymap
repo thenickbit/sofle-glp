@@ -52,11 +52,13 @@
         code-layer {
             bindings = <&mo 1>;
             key-positions = <28 27>;
+            layers = <0>;
         };
 
         move-layer {
             bindings = <&mo 2>;
             key-positions = <27 26>;
+            layers = <0>;
         };
     };
 
