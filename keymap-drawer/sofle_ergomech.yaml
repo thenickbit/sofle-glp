@@ -26,7 +26,7 @@ layers:
   - DELETE
   - LEFT SHIFT
   - A
-  - S
+  - {t: S, h: Gui+ S}
   - D
   - F
   - G
@@ -39,8 +39,8 @@ layers:
   - LCTRL
   - Z
   - X
-  - {t: Gui+ C, h: C}
-  - {t: Gui+ V, h: V}
+  - {t: C, h: Gui+ C}
+  - {t: V, h: Gui+ V}
   - B
   - N
   - M
