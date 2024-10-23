@@ -50,10 +50,10 @@ layers:
   - \
   - MUTE
   - Move
-  - CAPSLOCK
   - LEFT ALT
+  - LEFT GUI
   - SPACE
-  - {t: BACKSPACE, h: LEFT GUI}
+  - BACKSPACE
   - RIGHT SHIFT
   - ENTER
   - RIGHT ALT
