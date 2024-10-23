@@ -394,5 +394,7 @@ combos:
   k: ENTER
 - p: [28, 27]
   k: Code
+  l: [Base]
 - p: [27, 26]
   k: Move
+  l: [Base]
