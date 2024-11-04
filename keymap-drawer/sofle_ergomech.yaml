@@ -26,9 +26,9 @@ layers:
   - DELETE
   - LEFT SHIFT
   - A
-  - {t: S, h: Numpad}
-  - {t: D, h: Move}
-  - {t: F, h: Code}
+  - S
+  - D
+  - F
   - G
   - H
   - J
@@ -93,7 +93,7 @@ layers:
   - {t: ▽, type: trans}
   - '4'
   - '5'
-  - {t: '6', type: held}
+  - '6'
   - {t: ▽, type: trans}
   - '-'
   - (
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
-  - {t: LSHFT, type: held}
+  - LSHFT
   - {t: ▽, type: trans}
   - CLCK
   - PG DN
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -327,3 +327,12 @@ layers:
 combos:
 - p: [31, 32, 33]
   k: ENTER
+- p: [28, 52]
+  k: Code
+  l: [Base]
+- p: [52, 27]
+  k: Move
+  l: [Base]
+- p: [52, 26]
+  k: Numpad
+  l: [Base]
