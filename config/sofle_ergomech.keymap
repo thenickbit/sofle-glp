@@ -41,6 +41,24 @@
             bindings = <&kp ENTER>;
             key-positions = <31 32 33>;
         };
+
+        Code {
+            bindings = <&mo 1>;
+            key-positions = <28 52>;
+            layers = <0>;
+        };
+
+        Move {
+            bindings = <&mo 2>;
+            key-positions = <52 27>;
+            layers = <0>;
+        };
+
+        Numpad {
+            bindings = <&mo 3>;
+            key-positions = <52 26>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -59,7 +77,7 @@
             bindings = <
 &kp ESC         &kp N1  &kp N2        &kp N3        &kp N4     &kp N5         &kp N6           &kp N7     &kp N8         &kp N9         &kp N0    &kp BACKSPACE
 &kp TAB         &kp Q   &kp W         &kp E         &kp R      &kp T          &kp Y            &kp U      &kp I          &kp O          &kp P     &kp DELETE
-&kp LEFT_SHIFT  &kp A   &hrm 3 S      &hrm 2 D      &hrm 1 F   &kp G          &kp H            &kp J      &kp K          &kp L          &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp A   &kp S         &kp D         &kp F      &kp G          &kp H            &kp J      &kp K          &kp L          &kp SEMI  &kp SQT
 &kp LCTRL       &kp Z   &kp X         &kp C         &kp V      &kp B          &kp N            &kp M      &kp COMMA      &kp DOT        &kp FSLH  &kp BACKSLASH
 &kp C_MUTE      &mo 2   &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp ENTER  &kp RIGHT_ALT  &kp RIGHT_GUI  &mo 1
                                                                               &tog 4           &kp RIGHT  &kp UP_ARROW   &kp LEFT       &kp DOWN
