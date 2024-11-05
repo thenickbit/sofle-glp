@@ -39,25 +39,12 @@
 
         enter {
             bindings = <&kp ENTER>;
+            key-positions = <19 20 21>;
+        };
+
+        space {
+            bindings = <&kp SPACE>;
             key-positions = <31 32 33>;
-        };
-
-        Code {
-            bindings = <&mo 1>;
-            key-positions = <28 52>;
-            layers = <0>;
-        };
-
-        Move {
-            bindings = <&mo 2>;
-            key-positions = <52 27>;
-            layers = <0>;
-        };
-
-        Numpad {
-            bindings = <&mo 3>;
-            key-positions = <52 26>;
-            layers = <0>;
         };
     };
 
@@ -90,12 +77,12 @@
 
         Code {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7                &kp F8                 &kp F9         &kp F10           &kp F11
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &trans            &kp F12
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL      &kp GREATER_THAN  &kp PRINTSCREEN
-&trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans  &kp UNDERSCORE  &kp LBKT              &kp RBKT               &kp PIPE       &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans                 &trans         &trans
-                                                &trans          &trans                &trans                 &trans         &trans
+&trans  &kp F1  &kp F2          &kp F3        &kp F4           &kp F5  &kp F6          &kp F7                &kp F8                 &kp F9         &kp F10           &kp F11
+&trans  &trans  &trans          &kp UP_ARROW  &trans           &trans  &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &trans            &kp F12
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans  &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL      &kp GREATER_THAN  &kp PRINTSCREEN
+&trans  &trans  &trans          &trans        &trans           &trans  &kp UNDERSCORE  &kp LBKT              &kp RBKT               &kp PIPE       &trans            &trans
+&trans  &trans  &trans          &trans        &trans           &trans  &trans          &trans                &trans                 &trans         &trans
+                                                                       &trans          &trans                &trans                 &trans         &trans
             >;
 
             label = "code";
