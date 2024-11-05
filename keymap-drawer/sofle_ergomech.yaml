@@ -79,9 +79,9 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - +
   - '{'
@@ -91,9 +91,9 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
+  - LEFT ARROW
+  - DOWN
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - '-'
   - (
@@ -102,10 +102,10 @@ layers:
   - '>'
   - PRINTSCREEN
   - {t: ▽, type: trans}
-  - '0'
-  - '1'
-  - '2'
-  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - _
   - '['
@@ -221,7 +221,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - '!'
-  - {t: '@', type: held}
+  - '@'
   - '#'
   - $
   - '%'
@@ -247,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -325,14 +325,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [31, 32, 33]
+- p: [19, 20, 21]
   k: ENTER
-- p: [28, 52]
-  k: Code
-  l: [Base]
-- p: [52, 27]
-  k: Move
-  l: [Base]
-- p: [52, 26]
-  k: Numpad
-  l: [Base]
+- p: [31, 32, 33]
+  k: SPACE
