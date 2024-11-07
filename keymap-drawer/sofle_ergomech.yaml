@@ -329,3 +329,5 @@ combos:
   k: ENTER
 - p: [31, 32, 33]
   k: SPACE
+- p: [52, 55]
+  k: Code
