@@ -46,6 +46,11 @@
             bindings = <&kp SPACE>;
             key-positions = <31 32 33>;
         };
+
+        code {
+            bindings = <&mo 1>;
+            key-positions = <52 55>;
+        };
     };
 
     keymap {
