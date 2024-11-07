@@ -14,9 +14,9 @@ layers:
   - BACKSPACE
   - TAB
   - Q
-  - W
-  - E
-  - R
+  - {t: W, h: Numpad}
+  - {t: E, h: Move}
+  - {t: R, h: Code}
   - T
   - Y
   - U
@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - +
   - '{'
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -145,7 +145,7 @@ layers:
   - {t: ▽, type: trans}
   - INS
   - PSCRN
-  - CMENU
+  - {t: CMENU, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -209,7 +209,7 @@ layers:
   - F11
   - '`'
   - '1'
-  - '2'
+  - {t: '2', type: held}
   - '3'
   - '4'
   - '5'
@@ -329,5 +329,3 @@ combos:
   k: ENTER
 - p: [31, 32, 33]
   k: SPACE
-- p: [52, 55]
-  k: Code
