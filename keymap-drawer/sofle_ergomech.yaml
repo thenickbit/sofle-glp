@@ -14,9 +14,9 @@ layers:
   - BACKSPACE
   - TAB
   - Q
-  - {t: W, h: Numpad}
-  - {t: E, h: Move}
-  - {t: R, h: Code}
+  - W
+  - E
+  - R
   - T
   - Y
   - U
@@ -26,9 +26,9 @@ layers:
   - DELETE
   - LEFT SHIFT
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: Numpad}
+  - {t: D, h: Move}
+  - {t: F, h: Code}
   - G
   - H
   - J
@@ -49,16 +49,16 @@ layers:
   - /
   - \
   - MUTE
-  - Move
-  - LEFT ALT
   - LEFT GUI
+  - LEFT ALT
+  - Move
   - SPACE
   - BACKSPACE
   - RIGHT SHIFT
   - ENTER
+  - Code
   - RIGHT ALT
   - RIGHT GUI
-  - Code
   - {t: Game, h: toggle}
   - RIGHT
   - UP ARROW
@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - +
   - '{'
@@ -93,7 +93,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN
-  - RIGHT ARROW
+  - {t: RIGHT ARROW, type: held}
   - {t: ▽, type: trans}
   - '-'
   - (
@@ -145,7 +145,7 @@ layers:
   - {t: ▽, type: trans}
   - INS
   - PSCRN
-  - {t: CMENU, type: held}
+  - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
-  - LSHFT
+  - {t: LSHFT, type: held}
   - {t: ▽, type: trans}
   - CLCK
   - PG DN
@@ -209,7 +209,7 @@ layers:
   - F11
   - '`'
   - '1'
-  - {t: '2', type: held}
+  - '2'
   - '3'
   - '4'
   - '5'
@@ -221,7 +221,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - '!'
-  - '@'
+  - {t: '@', type: held}
   - '#'
   - $
   - '%'
