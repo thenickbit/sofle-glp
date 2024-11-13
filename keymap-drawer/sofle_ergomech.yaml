@@ -49,9 +49,9 @@ layers:
   - /
   - \
   - MUTE
-  - LEFT GUI
   - LEFT ALT
   - Move
+  - LEFT GUI
   - SPACE
   - BACKSPACE
   - RIGHT SHIFT
