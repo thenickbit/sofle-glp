@@ -54,9 +54,9 @@ layers:
   - LEFT GUI
   - SPACE
   - BACKSPACE
-  - RIGHT SHIFT
-  - ENTER
   - Code
+  - ENTER
+  - RIGHT SHIFT
   - RIGHT ALT
   - RIGHT GUI
   - {t: Game, h: toggle}
@@ -87,7 +87,7 @@ layers:
   - '{'
   - '}'
   - '&'
-  - {t: ▽, type: trans}
+  - '~'
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,7 +111,7 @@ layers:
   - '['
   - ']'
   - '|'
-  - {t: ▽, type: trans}
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
