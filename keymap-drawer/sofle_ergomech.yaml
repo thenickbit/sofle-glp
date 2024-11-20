@@ -26,9 +26,9 @@ layers:
   - DELETE
   - LEFT SHIFT
   - A
-  - {t: S, h: Numpad}
-  - {t: D, h: Move}
-  - {t: F, h: Code}
+  - S
+  - D
+  - F
   - G
   - H
   - J
@@ -49,8 +49,8 @@ layers:
   - /
   - \
   - MUTE
-  - LEFT ALT
   - Move
+  - LEFT ALT
   - LEFT GUI
   - SPACE
   - BACKSPACE
@@ -93,7 +93,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN
-  - {t: RIGHT ARROW, type: held}
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - '-'
   - (
@@ -119,7 +119,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
-  - {t: LSHFT, type: held}
+  - LSHFT
   - {t: ▽, type: trans}
   - CLCK
   - PG DN
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,7 +221,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - '!'
-  - {t: '@', type: held}
+  - '@'
   - '#'
   - $
   - '%'
